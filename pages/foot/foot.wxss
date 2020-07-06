@@ -1,0 +1,14 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+
+text{
+  width: 100%;
+  height: 100%;
+  font-size: 80rpx;
+  color: #ededed;
+  position: fixed;
+  top: 563rpx;
+  left: 255rpx;
+}

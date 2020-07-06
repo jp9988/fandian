@@ -1,0 +1,56 @@
+/* pages/index/index.wxss */
+/* page{
+  color: #EE6E47
+} */
+
+@import '../../weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+
+.nav {
+  display: flex;
+  height: 96rpx;
+  background-color: #ededed;
+  align-items: center
+}
+
+.citySel{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.search{
+  margin-left: 45rpx;
+}
+
+/* .h-swiper{
+  height: 400rpx;
+} */
+
+swiper{
+  height: 400rpx;
+}
+
+.type{
+  height: 180rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50rpx;
+}
+
+#type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#type image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+/* 引用餐馆列表样式*/
+
+@import '../list-template/list-template.wxss'
+
+/* 引用餐馆列表样式*/

@@ -1,0 +1,9 @@
+<view class="order" wx:for="{{item}}">
+  <text>餐馆名称: {{item.title}}</text>
+  <text>预约时间: {{item.time}}</text>
+  <text>用餐人数: {{item.number}}</text>
+  <text>联系人: {{item.name}}</text>
+  <text>联系电话: {{item.phone}}</text>
+  <text>备注: {{item.note}}</text>
+  <button bindtap="delete" data-id="{{item._id}}">删除</button>
+</view> 

@@ -1,0 +1,34 @@
+<view class="top">
+  <view class="avator">
+    <image hidden="{{login_flag}}" src="../../icons/user.jpg" style="width:100rpx;height:100rpx"></image>
+    <image hidden="{{!login_flag}}" src="{{avator}}" style="width:100rpx;height:100rpx"></image>
+  </view>
+  <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class="login">{{name}}</button>
+<view wx:else>请升级微信版本</view>
+</view>
+<view class="order" bindtap="my_order">
+  <image src="../../icons/list1.png"></image>
+  <text>我的订单</text>
+</view>
+<view class="foot" bindtap="foot">
+  <image src="../../icons/list3.png"></image>
+  <text>浏览足迹</text>
+</view>
+<view class="collect" bindtap="collect">
+  <image src="../../icons/list4.png"></image>
+  <text>我的收藏</text>
+</view>
+<view class="comment" bindtap="comment">
+  <image src="../../icons/list5.png"></image>
+  <text>我的评论</text>
+</view>
+<view class="contact">
+  <image src="../../icons/list6.png"></image>
+  <text>客服热线</text>
+  <text style="position:absolute;right:20rpx; color:#ee6e47">400-654258</text>
+</view>
+<view class="about">
+  <image src="../../icons/list8.png"></image>
+  <text>版本管理</text>
+  <text style="position:absolute;right:20rpx">v 1.0.0</text>
+</view>

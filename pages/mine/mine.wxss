@@ -1,0 +1,106 @@
+.top{
+  background-color: #ee6e47;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200rpx;
+}
+
+.avator{
+  border: 1px solid #ee6e47;
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.login{
+  color: white;
+  margin-top: 20rpx;
+  background-color: transparent;
+}
+
+.order{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededed;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.order text{
+  margin-left: 10rpx;
+}
+
+.foot{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededed;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.foot text{
+  margin-left: 10rpx;
+}
+
+.collect{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededed;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.collect text{
+  margin-left: 10rpx;
+}
+
+.comment{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededed;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.comment text{
+  margin-left: 10rpx;
+}
+
+.contact{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededed;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.contact text{
+  margin-left: 10rpx;
+}
+
+.about{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededed;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.about text{
+  margin-left: 10rpx;
+}
+
+image{
+  width: 50rpx;
+  height: 50rpx;
+}

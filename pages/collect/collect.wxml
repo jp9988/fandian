@@ -1,0 +1,7 @@
+
+<import src="../type-list-template/type-list-template.wxml" />
+<!-- <block wx:for="{{item}}"> -->
+<mp-slideview wx:for="{{item}}" data-id="{{item._id}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+	<template is="listItem" data="{{item}}"></template>
+</mp-slideview>
+<!-- </block> -->

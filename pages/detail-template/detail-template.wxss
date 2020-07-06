@@ -1,0 +1,169 @@
+page{
+  background-color: #ededed;
+}
+
+swiper{
+  height: 400rpx;
+}
+
+.detail-name{
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  background-color: white;
+  position: relative;
+}
+
+.detail-name-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.detail-name-right{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 20rpx;
+}
+
+.detail-name-right image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.detail-name-right text{
+  color: #EE6E47;
+  margin-left: 10rpx;
+}
+
+.address{
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  background-color: white;
+  padding: 0 20rpx;
+  align-items: center;
+  border-top: 2px solid #ededed;
+  position: relative;
+}
+
+.address-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.address-left>text{
+  color: #EE6E47;
+}
+
+.address-left-top{
+  display: flex;
+  flex-direction: row;
+}
+
+.address-left-top image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.address-left-top text{
+  font-size: 38rpx;
+  font-weight: bold;
+}
+
+.address-right{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 20rpx;
+}
+
+.address-right image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.food{
+  display: flex;
+  flex-direction: column;
+  height: 248rpx;
+  background-color: white;
+  border-top: 2px solid #ededed;
+  padding: 0 20rpx;
+}
+
+.food-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.food-title image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.food-picture{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+
+.food-picture image{
+  width: 175rpx;
+  height: 175rpx;
+}
+
+.evaluation{
+  display: flex;
+  flex-direction: row;
+  height: 50rpx;
+  align-items: center;
+  background-color: white;
+  padding: 0 20rpx;
+}
+
+.evaluation image{
+  height: 40rpx;
+  width: 135rpx;
+  margin-left: 446rpx;
+}
+
+.fun{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  background-color: white;
+  height: 120rpx;
+  border-top: 2px solid #ededed;
+}
+
+.fun image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.btn{
+  background-color: #EE6E47;
+  text-align: center;
+  height: 80rpx;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button{
+  background-color: transparent;
+  font-size: 42rpx;
+  color: white;
+}

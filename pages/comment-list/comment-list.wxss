@@ -1,0 +1,63 @@
+form{
+  margin: 10rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+textarea{
+  border: 1px solid #ee6e47;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  width: 660rpx;
+}
+
+button{
+  background-color: #ee6e47;
+  color: white;
+  margin-top: 20rpx;
+}
+
+.comment{
+  display: flex;
+  flex-direction: column;
+  margin: 50rpx 20rpx 0 20rpx;
+}
+
+.title{
+  border-bottom: 1px solid #ee6e47;
+  color: #ee6e47;
+}
+
+.comment-detail{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  border-bottom: 1px solid #ededed;
+}
+
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.avator{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.avator image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.user text{
+  margin-left: 20rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}

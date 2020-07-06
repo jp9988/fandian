@@ -1,0 +1,4 @@
+<import src="../list-template/list-template.wxml"/>
+<block wx:for="{{item}}">
+  <template is="listItem" data="{{item}}"></template>
+</block>

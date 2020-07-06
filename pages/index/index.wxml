@@ -1,0 +1,62 @@
+<view class="nav">
+  <view class="citySel">东莞</view>
+  <view class="search">
+     <mp-searchbar bindselectresult="selectResult" search="{{search}}" bindtap="searchClick"></mp-searchbar>
+  </view>
+</view>
+
+<swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#EE6E47" autoplay="true" interval="2000" duration="1000" circular="true" easing-function="linear">
+  <swiper-item>
+    <image src="../../icons/four.png" style="width:100%"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/lunbo2.png" style="width:100%"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/lunbo3.png" style="width:100%"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/lunbo4.png" style="width:100%"></image>
+  </swiper-item>
+</swiper>
+
+<view class="type">
+  <view id="type">
+    <image src="../../icons/hot.png" bindtap="hot"></image>
+    <text>热推</text>
+  </view>
+  <view id="type">
+  <image src="../../icons/new1.png" bindtap="new"></image>
+  <text>新品</text>
+  </view>
+  <view id="type">
+  <image src="../../icons/chinese.png" bindtap="chinese"></image>
+  <text>中餐</text>
+  </view>
+  <view id="type">
+  <image src="../../icons/west.png" bindtap="west"></image>
+  <text>西餐</text>
+  </view>
+  <view id="type">
+  <image src="../../icons/self.png" bindtap="self"></image>
+  <text>自助</text>
+  </view>
+</view>
+
+<swiper autoplay="true" circular="true" interval="2000" duration="1000" vertical="true" style="height:200rpx">
+  <swiper-item>
+    <image src="../../icons/advertise_1.png" style="width:100%;height:200rpx"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/advertise_one1.png" style="width:100%;height:200rpx"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../icons/lunbo1.png" style="width:100%;height:200rpx"></image>
+  </swiper-item>
+</swiper>
+
+<import src="../list-template/list-template.wxml"/>
+<block wx:for="{{item}}">
+  <template is="listItem" data="{{item}}"></template>
+</block>
+

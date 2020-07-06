@@ -1,0 +1,20 @@
+<form bindsubmit="comment">
+  <textarea name="comment"></textarea>
+  <button form-type="submit" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">发表</button>
+  <view wx:else>请升级微信版本</view>
+</form>
+
+<view class="comment">
+  <view class="title">
+    <text>全部评论({{count}})</text>
+  </view>
+  <view class="comment-detail" wx:for="{{item}}">
+    <view class="user">
+      <view class="avator">
+        <image src="{{item.avatar}}"></image>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+    <text>{{item.comment}}</text>
+  </view>
+</view>

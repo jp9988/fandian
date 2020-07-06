@@ -1,0 +1,67 @@
+.list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 250rpx;
+  border-bottom: 2px solid #ededed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20rpx;
+  margin: 10rpx;
+  border: 2px solid #ededed;
+}
+
+.avator{
+  width: 80rpx;
+  height: 80rpx;
+  border: 2px solid #EE6E47;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avator image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+
+.center{
+  display: flex;
+  flex-direction: column;
+  margin-left: 45rpx;
+  width: 228rpx;
+}
+
+.name{
+  font-size: 38rpx;
+  font-weight: bold;
+}
+
+.price{
+  font-size: 34rpx;
+}
+
+.center image{
+  height: 40rpx;
+  width: 200rpx;
+}
+
+.template-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 190rpx;
+}
+
+.zan{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 108rpx;
+}
+
+.zan image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}

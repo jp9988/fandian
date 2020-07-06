@@ -1,0 +1,70 @@
+<swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#EE6E47" autoplay="true" interval="2000" duration="1000" circular="true" easing-function="linear">
+	<swiper-item  wx:for="{{detail.image}}">
+		<image src="{{item.img}}" style="width:100%"></image>
+	</swiper-item>
+	<!-- <swiper-item>
+		<image src="../../icons/seven.png" style="width:100%"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../icons/nine.png" style="width:100%"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../icons/lunbo4.png" style="width:100%"></image>
+	</swiper-item> -->
+</swiper>
+
+<view class="detail-name">
+	<view class="detail-name-left">
+		<text class="title">{{detail.title}}</text>
+		<text>{{detail.type}} {{detail.price}}</text>
+	</view>
+	<view class="detail-name-right">
+		<image src="../../icons/collect1.png" bindtap="collect" hidden="{{!collect_flag}}"></image>
+		<image src="../../icons/collect2.png" bindtap="collect" hidden="{{collect_flag}}"></image>
+		<image src="../../icons/well.png" style="margin-left: 10rpx;" bindtap="well" hidden="{{!well_flag}}"></image>
+		<image src="../../icons/well1.png" style="margin-left: 10rpx;" bindtap="well" hidden="{{well_flag}}"></image>
+		<text>{{detail.number}}人</text>
+	</view>
+</view>
+
+<view class="address">
+	<view class="address-left">
+		<view class="address-left-top">
+			<image src="../../icons/location.png"></image>
+			<text>{{detail.address}}</text>
+		</view>
+		<text>{{detail.time}}</text>
+	</view>
+	<view class="address-right">
+		<image src="../../icons/phone2.png"></image>
+		<text style="margin-left:10rpx">电话</text>
+	</view>
+</view>
+
+<view class="food">
+  <view class="food-title">
+    <image src="../../icons/food.png"></image>
+    <text>推荐菜品</text>
+  </view>
+  <view class="food-picture">
+	<view  wx:for="{{detail.food}}">
+    <image src="{{item.image}}"></image>
+		</view>
+  </view>
+</view>
+
+<view class="evaluation" bindtap="comment">
+  <text>用户评价</text>
+  <image src="{{detail.star}}"></image>
+</view>
+
+<view class="fun">
+<view wx:for="{{detail.fun}}">
+  <image src="{{item.image}}"></image>
+	</view>
+</view>
+
+<view class="btn" bindtap="order">
+  <button>预约</button>
+</view>
+

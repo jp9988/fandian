@@ -1,0 +1,9 @@
+<mp-slideview wx:for="{{item}}" data-id="{{item._id}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+<view class="comment-detail">
+    <view class="user">
+      <text class="name">{{item.title}}</text>
+      <text class="time">{{item.time}}</text>
+    </view>
+    <text>{{item.comment}}</text>
+</view>
+</mp-slideview>

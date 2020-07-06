@@ -1,0 +1,4 @@
+@import '../type-list-template/type-list-template.wxss';
+
+@import '../../weui-miniprogram/slideview/slideview.wxss';
+

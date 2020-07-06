@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/list-template/list-template",
+    "pages/type-list-template/type-list-template",
+    "pages/hot/hot",
+    "pages/new/new",
+    "pages/chinese/chinese",
+    "pages/west/west",
+    "pages/self/self",
+    "pages/detail-template/detail-template",
+    "pages/order/order",
+    "pages/my-order/my-order",
+    "pages/foot/foot",
+    "pages/collect/collect",
+    "pages/comment/comment",
+    "pages/comment-list/comment-list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EE6E47",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icons/index.png",
+        "selectedIconPath": "./icons/fan.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "./icons/mine.png",
+        "selectedIconPath": "./icons/mine-sel.png"
+      }
+    ],
+    "color": "#d9d9d9",
+    "selectedColor": "#EE6E47",
+    "backgroundColor": "#fff"
+  },
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

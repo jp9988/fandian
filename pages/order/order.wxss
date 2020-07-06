@@ -1,0 +1,105 @@
+text{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.title{
+  font-size: 36rpx;
+  font-weight: bold;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  height: 100rpx;
+  display:flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.time{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  flex-direction: row;
+  height:100rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  position: relative;
+}
+
+.time input{
+  margin-left: 100rpx;
+  position: absolute;
+  right: 0;
+}
+
+.number{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  position: relative;
+}
+
+.number input{
+  margin-left: 100rpx;
+  position: absolute;
+  right: 0;
+}
+
+.name{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  position: relative;
+}
+
+.name input{
+  margin-left: 100rpx;
+  position: absolute;
+  right: 0;
+}
+
+.phone{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  position: relative;
+}
+
+.phone input{
+  margin-left: 100rpx;
+  position: absolute;
+  right: 0;
+}
+
+.note{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  position: relative;
+}
+
+.note input{
+  position: absolute;
+  right: 0;
+}
+
+button{
+  background-color: #ee6e47;
+  color: white;
+  margin-top: 50rpx;
+}

@@ -1,0 +1,45 @@
+@import '../../weui-miniprogram/slideview/slideview.wxss';
+
+.comment-detail{
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+  border: 1px solid #ededed;
+  border-radius: 20rpx;
+}
+
+.comment-detail>text{
+  padding: 10rpx 20rpx;
+}
+
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.avator{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.avator image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.name{
+  margin-left: 20rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.time{
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}

@@ -1,0 +1,21 @@
+<template name="listItem">
+	<view class="list" bindtap="nav_to" data-id="{{item.id}}">
+    <text class="target">hot</text>
+		<view class="avator">
+			<image src="{{item.avator}}"></image>
+		</view>
+		<view class="center">
+			<text class="name">{{item.name}}</text>
+			<text class="price">{{item.price}}</text>
+			<image src="{{item.start}}"></image>
+			<text>{{item.desc}}</text>
+		</view>
+		<view class="right">
+			<text>{{item.distance}}</text>
+			<view class="zan">
+				<image src="{{item.well}}"></image>
+				<text>{{item.number}}</text>
+			</view>
+		</view>
+	</view>
+</template>

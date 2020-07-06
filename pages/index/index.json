@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mp-searchbar": "/weui-miniprogram/searchbar/searchbar"
+  },
+  "navigationBarTitleText":"首页"
+}

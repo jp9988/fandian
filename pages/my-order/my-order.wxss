@@ -1,0 +1,23 @@
+.order{
+  height: 550rpx;
+  border-radius: 20rpx;
+  background-color: white;
+  border: 1px solid #ededed;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+  margin: 20rpx;
+  position: relative;
+}
+
+text{
+  margin-bottom: 20rpx;
+}
+
+button{
+  background-color: #ee6e47;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 186rpx;
+}
